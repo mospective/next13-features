@@ -1,5 +1,6 @@
+import Header from "../components/Header"
+
 export default function Layout({ children }) {
-    console.log(children)
 
     return (
         <html lang="en">
@@ -7,6 +8,7 @@ export default function Layout({ children }) {
                 <title>Title of home page</title>
             </head>
             <body>
+                <Header />
                 {children}
             </body>
         </html>
