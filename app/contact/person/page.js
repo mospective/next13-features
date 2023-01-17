@@ -1,8 +1,10 @@
 import Image from "next/image";
 import testImage from "../../../public/vercel.svg";
+import Btn from "../../button";
 import '../../../styles/globals.css';
 
 export default function Page() {
+    
     return (<>
         <h1>Person page</h1>
         <Image
@@ -18,10 +20,12 @@ export default function Page() {
             src="https://miro.medium.com/max/1400/1*pJdLvOAPgVTfESZlSiCTwQ.png"
             alt="Vercel logo"
             width={1400}
-            height={600}
+            height={564}
             // blurDataURL="data:..." automatically provided
             // placeholder="blur" // Optional blur-up while loading
         />
+
+        <Btn />
 
     </>
     )
